@@ -9,7 +9,7 @@ const btn = document.querySelectorAll('.btn').forEach(item => {
             
         }
         else{
-            presentList2.pop(item.innerHTML);
+            presentList.pop(item.innerHTML);
             item.classList.remove("btn-success");
             item.classList.add("btn-danger");
         }
